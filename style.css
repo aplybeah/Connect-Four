@@ -10,7 +10,7 @@ header,
 footer {
   background-color: #9db9ff;
   width: 800px;
-  height: 100px;
+  height: 150px;
   border-radius: 8px 8px 0 0;
   margin: 50px;
 }
@@ -19,6 +19,12 @@ h1 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
+header p {
+  font-size: 16px;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 0 20px 0 20px;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -26,10 +32,11 @@ h1 {
   min-height: 300px;
   max-width: 500px;
   margin: 0 auto;
-  background-color: #fff89d;
+  background-color: white;
 }
 .cell {
-  border: 4px solid #ffefe7;
+  border: 8px solid #fff89d;
+  border-radius: 20px;
 }
 /* footer {
   background-color: #9db9ff;
@@ -40,7 +47,12 @@ h1 {
 a {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
   color: #ffefe7;
+  border: 2px solid #ffefe7;
+  padding: 7px;
+  border-radius: 4px;
+  width: 75px;
 }
 p {
   color: #ffefe7;
